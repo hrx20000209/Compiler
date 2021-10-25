@@ -1,4 +1,4 @@
 FROM openjdk:8
-WORKDIR /app/src/
-COPY Main.java ./
+WORKDIR /app/
+COPY src/Main.java ./
 RUN javac Main.java
